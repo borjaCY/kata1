@@ -20,7 +20,6 @@ public final class Person {
     public LocalDate birthday() {
         return birthday;
     }
-
     public int getAge() {
         return toYears(LocalDate.now().toEpochDay() - birthday.toEpochDay());
     }
